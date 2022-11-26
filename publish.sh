@@ -16,4 +16,4 @@ npm publish --access public
 cd ../../
 
 # Finalise version change, and push to git
-npm version $PACKAGE_VERSION --allow-same-version true -m "Bump version to %s"
+npm version $PACKAGE_VERSION --allow-same-version true -m "Bump version to %s" --force
