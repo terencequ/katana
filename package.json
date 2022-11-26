@@ -1,6 +1,6 @@
 {
   "name": "@terencequ/katana",
-  "version": "0.0.7",
+  "version": "0.0.13",
   "description": "A collection of Angular libraries for Terence Qu's personal use.",
   "author": "Terence Qu",
   "scripts": {
@@ -8,10 +8,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "preversion": "ng build core",
-    "version": "git add .",
-    "postversion": "git push && git push --tags"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
