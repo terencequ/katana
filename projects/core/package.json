@@ -1,6 +1,6 @@
 {
   "name": "@terencequ/katana",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "A library which contains a collection of base classes and components, for easier creation of an Angular web application. For personal use by Terence Qu.",
   "author": "Terence Qu",
   "peerDependencies": {
