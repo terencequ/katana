@@ -1,0 +1,12 @@
+<div class="test-card">
+  <h1 class="title">Test Card</h1>
+  <div *ngIf="isOperationInProgress || !isDataLoaded">
+    <p>Loading...</p>
+  </div>
+  <div class="grid" *ngIf="!isOperationInProgress && isDataLoaded">
+    <p>{{current.body?.number}}</p>
+    <p>{{dataStatusName}}</p>
+    <button (click)="incrementTestNumber()">Increment</button>
+    <button (click)="saveNumber()">Save</button>
+  </div>
+</div>
