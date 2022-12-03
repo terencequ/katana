@@ -5,6 +5,9 @@
 export * from './lib/components/abstract/abstract-data.component';
 export * from './lib/components/abstract/abstract-data-manager.component';
 
+export * from './lib/components/test/data/test-data';
+export * from './lib/components/test/test.component';
+
 export * from './lib/models/enums/data-operation-status';
 export * from './lib/models/enums/data-status';
 export * from './lib/models/data-handler';
