@@ -51,3 +51,6 @@ jobs:
       run: bash ./publish.sh
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+        
+    - name: Push to git
+      run: git push
