@@ -2,15 +2,18 @@
  * Public API Surface of Katana
  */
 
-export * from './lib/components/abstract/abstract-data.component';
-export * from './lib/components/abstract/abstract-data-manager.component';
-
-export * from './lib/components/test/data/test-data';
-export * from './lib/components/test/test.component';
-
-export * from './lib/models/enums/data-operation-status';
-export * from './lib/models/enums/data-status';
-export * from './lib/models/data-handler';
-export * from './lib/models/data';
-
 export * from './lib/katana.module';
+
+export * from './lib/components/abstract-data.component';
+
+export * from './lib/main/data-handler';
+
+export * from './lib/main/models/data';
+export * from './lib/main/models/data-action';
+export * from './lib/main/models/data-action-error';
+
+export * from './lib/main/models/enums/data-action-status';
+export * from './lib/main/models/enums/data-action-type';
+
+export * from './lib/main/models/interfaces/interface-data-source.service';
+
