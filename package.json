@@ -1,6 +1,6 @@
 {
   "name": "@terencequ/katana",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "A collection of Angular libraries for Terence Qu's personal use.",
   "author": "Terence Qu",
   "scripts": {
