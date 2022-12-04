@@ -4,6 +4,7 @@ import DataAction from "./models/data-action";
 import DataActionError from "./models/data-action-error";
 import { DataActionType } from "./models/enums/data-action-type";
 import * as _ from "lodash";
+import IDataSourceService from "./models/interfaces/interface-data-source.service";
 
 /**
  * Main class to handle one data object
@@ -30,7 +31,7 @@ export default class DataHandler<TBody, TPersistedId = string> {
     }
 
     /**
-     * Get the most recent data action of a specific type.
+     * Initialise and load new data into this component.
      * @param persistedId Persisted id of the data object.
      * @param data Treated as a data override. If this is provided, no load attempt will be made and this data will be used.
      */
